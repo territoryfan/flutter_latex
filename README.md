@@ -1,7 +1,7 @@
 # flutter_latex
 [![GitHub stars](https://img.shields.io/github/stars/shah-xad/flutter_latex?style=social)](https://github.com/shah-xad/flutter_latex/stargazers) [![pub package](https://img.shields.io/pub/v/flutter_latex.svg)](https://pub.dev/packages/flutter_latex)
 
-<img src="https://raw.githubusercontent.com/shah-xad/flutter_latex/master/example/assets/flutter_latex_banner.png" alt=""/>
+<!-- <img src="https://raw.githubusercontent.com/shah-xad/flutter_latex/master/example/assets/flutter_latex_banner.png" alt=""/> -->
 
 # About
 A Flutter Package to render **fully offline** so many types of equations and expressions based on **LaTeX** , **TeX** and **MathML**, most commonly used are as followings:
