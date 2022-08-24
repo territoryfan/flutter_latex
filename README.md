@@ -1,7 +1,5 @@
 # flutter_latex
-[![GitHub stars](https://img.shields.io/github/stars/shah-xad/flutter_latex?style=social)](https://github.com/shah-xad/flutter_latex/stargazers) [![pub package](https://img.shields.io/pub/v/flutter_latex.svg)](https://pub.dev/packages/flutter_latex)
-
-<!-- <img src="https://raw.githubusercontent.com/shah-xad/flutter_latex/master/example/assets/flutter_latex_banner.png" alt=""/> -->
+[![GitHub stars](https://img.shields.io/github/stars/territoryfan/flutter_latex?style=social)](https://github.com/territoryfan/flutter_latex) [![pub package](https://img.shields.io/pub/v/flutter_latex.svg)](https://pub.dev/packages/flutter_latex)
 
 # About
 A Flutter Package to render **fully offline** so many types of equations and expressions based on **LaTeX** , **TeX** and **MathML**, most commonly used are as followings:
@@ -20,7 +18,7 @@ A Flutter Package to render **fully offline** so many types of equations and exp
 
 # How it works?
 
-Basically it's a flutter dart wrapper around the most powerful JavaScript libraries [MathJax](https://github.com/mathjax/MathJax) and [Katex](https://github.com/KaTeX/KaTeX) which render the equations in [webview_flutter_plus](https://pub.dartlang.org/packages/webview_flutter_plus).
+Basically it's a flutter dart wrapper around the most powerful JavaScript libraries [Katex](https://github.com/KaTeX/KaTeX) which render the equations in [webview_flutter_plus](https://pub.dartlang.org/packages/webview_flutter_plus).
 
 # How to use?
 **1:** Add flutter_latex latest  [![pub package](https://img.shields.io/pub/v/flutter_latex.svg)](https://pub.dev/packages/flutter_latex) version under dependencies to your package's pubspec.yaml file.
@@ -110,7 +108,7 @@ TeXView(
               style: TeXViewStyle(textAlign: TeXViewTextAlign.Center)),
           TeXViewContainer(
             child: TeXViewImage.network(
-                'https://raw.githubusercontent.com/shah-xad/flutter_latex/master/example/assets/flutter_latex_banner.png'),
+                'https://raw.githubusercontent.com/territoryfan/flutter_latex/main/example/assets/flutter_latex_banner.png'),
             style: TeXViewStyle(
               margin: TeXViewMargin.all(10),
               borderRadius: TeXViewBorderRadius.all(20),
@@ -137,7 +135,7 @@ TeXView(
   )
 ```
 # Api Changes.
-* Please see [CHANGELOG.md](https://github.com/shah-xad/flutter_latex/blob/master/CHANGELOG.md).
+* Please see [CHANGELOG.md](https://github.com/territoryfan/flutter_latex/blob/main/CHANGELOG.md).
 
 # Api Usage.
 - `children:` A list of `TeXViewWidget`
@@ -155,7 +153,7 @@ TeXView(
 
 - `TeXViewStyle()` You can style each and everything using `TeXViewStyle()` or by using custom `CSS` code by `TeXViewStyle.fromCSS()` where you can pass hard coded String containing CSS code. For more information please check the example.
     
-- `renderingEngine:` Render Engine to render TeX (Default is Katex Rendering Engine). Use **Katex RenderingEngine** for fast render and  **MathJax RenderingEngine** for quality render.
+- `renderingEngine:` Render Engine to render TeX (Default is Katex Rendering Engine). Use **Katex RenderingEngine** for fast render.
 
 - `loadingWidgetBuilder:` Show a loading widget before rendering completes.
 
@@ -163,11 +161,8 @@ TeXView(
   
 - `onTeXViewCreated:` Callback when TeXView loading finishes.
 
-For more please see the [Example](https://github.com/shah-xad/flutter_latex/tree/master/example).
+For more please see the [Example](https://github.com/territoryfan/flutter_latex/tree/main/example).
 
 # To Do:
 - ~~Speed Optimizations as it's a bit slow rendering speed. It takes 1-2 seconds to render after application loaded.~~ (Solved by adding Katex Support)
 - `Bug in Web Support` on `setState` everything disappears.
-
-# Cautions:
-- Please avoid using too many `TeXView` in a single page, because this is based on [webview_flutter_plus](https://pub.dartlang.org/packages/webview_flutter_plus) a complete web browser. Which may cause slowing down your app. I am trying to add all necessary widgets within `TeXView`, So please prefer to use `TeXViewWidget`. You can check [example folder](https://github.com/shah-xad/flutter_latex/tree/master/example) for details. If you find any problem you can [report an issue](https://github.com/shah-xad/flutter_latex/issues/new).
