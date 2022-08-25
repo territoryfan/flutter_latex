@@ -41,12 +41,24 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
       statement: r"""<h3>What is the correct form of quadratic formula?</h3>""",
       options: [
         QuizOption(
+          "id_0",
+          r""" <h2>(A){ \sqrt{b^2-4ac} }</h2>""",
+        ),
+        QuizOption(
+          "id_0",
+          r""" <h2>(A)sqrt{b^2-4ac}</h2>""",
+        ),
+        QuizOption(
           "id_1",
-          r""" <h2>(A)   \(x = {-b \pm \sqrt{b^2+4ac} \over 2a}\)</h2>""",
+          r""" <h2>(F)\(\sqrt{b^2-4ac}\)</h2>""",
         ),
         QuizOption(
           "id_2",
-          r""" <h2>(B)   \(x = {b \pm \sqrt{b^2-4ac} \over 2a}\)</h2>""",
+          r"""<h2>(B)\({ \sqrt{b^2-4ac} }\)</h2>""",
+        ),
+        QuizOption(
+          "id_5",
+          r"""<h2>(E)\({ \sqrt{b^2-4ac} }\)</h2>""",
         ),
         QuizOption(
           "id_3",

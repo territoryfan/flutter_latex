@@ -42,11 +42,13 @@ class TeXExample {
       r"""\( E_n = - R_H \left( {\frac{1}{{n^2 }}} \right) = \frac{{ - 2.178 \times 10^{ - 18} }}{{n^2 }}joule \)""");
 
   static TeXViewWidget chemistryEquations =
-      _teXViewWidget(r"<h4>Chemistry Equations</h4>", r"""<p>    
-     \( \ce{CO2 + C -> 2 CO} \) <br>
-     \( \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} \)<br>
-     Scroll long formulas in Katex $$ \ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x Nh4 ^ + x H2O} $$ <br>
-    </p>""");
+      _teXViewWidget(r"<h4>Chemistry Equationvss33vs</h4>", r"""\(\sqrt{b^2-4ac}\)""");
+  // static TeXViewWidget chemistryEquations =
+  //     _teXViewWidget(r"<h4>Chemistry Equations</h4>", r"""<p>    
+  //    \( \ce{CO2 + C -> 2 CO} \) <br>
+  //    \( \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} \)<br>
+  //    Scroll long formulas in Katex $$ \ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x Nh4 ^ + x H2O} $$ <br>
+  //   </p>""");
 
   static TeXViewWidget matrix = _teXViewWidget(r"<h4>Matrix</h4>", r"""<p>
      $$ \begin{bmatrix}
