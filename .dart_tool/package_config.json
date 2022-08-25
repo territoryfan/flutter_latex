@@ -99,19 +99,13 @@
     },
     {
       "name": "mime",
-      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/mime-1.0.2",
+      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/mime-0.9.7",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.0"
     },
     {
       "name": "path",
       "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/path-1.8.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/plugin_platform_interface-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -165,33 +159,15 @@
     },
     {
       "name": "webview_flutter",
-      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter-3.0.4",
+      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter-1.0.7",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "webview_flutter_android",
-      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_android-2.9.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "webview_flutter_platform_interface",
-      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_platform_interface-1.9.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.7"
     },
     {
       "name": "webview_flutter_plus",
-      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_plus-0.3.0+2",
+      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_plus-0.1.1+10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "webview_flutter_wkwebview",
-      "rootUri": "file:///Users/andy/develop/Flutter/SDK/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_wkwebview-2.9.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.7"
     },
     {
       "name": "flutter_latex",
@@ -200,7 +176,7 @@
       "languageVersion": "2.10"
     }
   ],
-  "generated": "2022-08-24T10:17:11.063603Z",
+  "generated": "2022-08-25T02:58:01.037775Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }
